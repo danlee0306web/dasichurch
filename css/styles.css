@@ -1,0 +1,346 @@
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*                  全 域                    */
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+   margin: 0px;
+}
+h4{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+#Header{
+  width: 100%;
+  background-color: #fff;
+}
+#Header>.Container{
+  width: 100%;
+  overflow: hidden;
+}
+.Container{
+  width: 90%;
+  margin: auto;
+}
+#Taste{
+  background-image: url('../images/bg/bg_02_new.jpg');
+}
+
+.DB{
+  width: 100%;
+  height: 75px;
+  display: block;
+}
+.SrOnly{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0)
+}
+#Logo{
+  width: 47.4%;
+  height: 80px;
+  background-image: url('../images/uploads/product_category/dasi-3_03.jpg');
+  float: left;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+#MemberContent{
+  width: 24%;
+  height: 88px;
+  float: right;
+  margin-right: 2%;
+}
+#MemberContent>div{
+  float: left;
+  width: 50%;
+  height: 88px;
+
+}
+.BGEdit{
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#MenuIcon{
+  width: 12%;
+  height: 88px;
+  float: right;
+  background-image: url('../images/uploads/product_category/1_03.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#MemberIcon{
+  background-image: url('../images/icon/icon_member.png');
+}
+#CartIcon{
+  background-image: url('../images/icon/icon_cart.png');
+}
+#PrimaryNavigation{
+  width: 100%;
+  background-color: aqua;
+  float: left;
+}
+#PrimaryNavigation>ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+#PrimaryNavigation>ul>li{
+  width: 100%;
+  height: 60px;
+  background-color: #FD9596;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  line-height: 60px;
+}
+#PrimaryNavigation>ul>li>a{
+  text-decoration: none;
+  color: #fff;
+}
+#BannerContent{
+  width: 100%;
+
+}
+#BannerLeft, #BannerRight{
+  display: none;
+}
+#BannerContent>img{
+  width: 100%;
+  vertical-align: bottom;
+}
+.Content{
+  width: 100%;
+
+}
+.Newsimg{
+  display: none;
+}
+.NewsDate{
+  color: #9c4921;
+  font-family: "Verdana",sans-serif;
+}
+.NewsTitle>a{
+  color: #000;
+}
+#Taste .Wrap{
+  position: relative;
+}
+#Taste p{
+  text-align: left;
+}
+.TipTag{
+  top: -21px;
+  right: 12px;
+  width: 51px;
+  height: 46px;
+
+  position: absolute;
+}
+#Copyrights{
+  width: 100%;
+  height: 50px;
+  background-color: pink;
+  text-align: center;
+}
+.Container img{
+  width: 100%;
+}
+#Banner, #News, #Product, #Taste{
+  margin-bottom: 50px;
+}
+
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*                手機轉置                    */
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+
+@media screen and (min-width: 481px){
+  body{
+}
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*                  平板版                   */
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+  body{
+
+  }
+  #Header>.Container{
+    width: 90%;
+  }
+  #News{
+    background-image: url('../images/bg/bg_top.png'),url('../images/bg/bg_bottom.png'),url('../images/bg/bg_01.jpg');
+    background-repeat: repeat-x, repeat-x, repeat;
+    background-position: top, bottom, left top;
+  }
+  #MenuIcon{
+    display:none;
+  }
+  #Logo{
+    margin-left: 39%;
+    width: 207%;
+    height: 75px;
+    margin-top: 69px;
+    background-repeat: no-repeat;
+  }
+  #MemberContent{
+    width: 80px;
+    height: 40px;
+    margin-top: 10px;
+  }
+  #MemberContent>div{
+    width: 40px;
+    height: 40px;
+  }
+  #PrimaryNavigation{
+    width: 51.8%;
+    float: none;
+    margin: auto;
+    clear: both;
+  }
+  #PrimaryNavigation>ul>li{
+    width: 25%;
+    border:none;
+    background-color: #fff;
+    float: left;
+  }
+  #PrimaryNavigation>ul>li>a{
+    color: #000;
+  }
+  .Content{
+    width: 33.33333333333333%;
+    margin-bottom: 40px;
+    float: left;
+  }
+
+  .Wrap{
+    width: 95%;
+
+
+  }
+  .Container{
+    overflow: hidden;
+  }
+  .NewsImg{
+    display: block;
+  }
+  .PCContent{
+    margin-bottom: 14px;
+    overflow: hidden;
+  }
+  .PCImgContent{
+    width: 57.2%;
+    float: left;
+  }
+  .PCDecription{
+    float: left;
+    width: 42.8%;
+    height: 300px;
+
+    text-align: center;
+  }
+  .PCImgRight{
+    float: right;
+  }
+  #ContactContent,#SocietyContent{
+    width: 50%;
+    float: left;
+  }
+  #SocietyContent{
+    text-align: right;
+  }
+  #FacebookIcon,#GooglePlus,#FacebookIcon>a,#GooglePlus>a{
+    display: inline;
+  }
+  .Container img{
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*                  PC 版                    */
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+@media screen and (min-width: 981px){
+  body{
+    }
+  .Container, #Header>.Container{
+    max-width: 1170px;
+  }
+  #PrimaryNavigation>ul>li>a:hover{
+    background-color: pink;
+    color: red;
+  }
+  #BannerLeft{
+    width: 10%;
+
+    float: left;
+  }
+  #BannerContent{
+    width: 80%;
+    float: left;
+  }
+  #BannerRight{
+    width: 10%;
+
+    float: left;
+  }
+  #BannerLeft, #BannerRight{
+    display: block;
+    height: 100px;
+  }
+  #Banner{
+    overflow: hidden;
+  }
+  #BannerContent>img{
+    width: 36%;
+    vertical-align: bottom;
+    display:block;
+     margin:auto;
+  }
+  .Container img{
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+  #PageTop{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  position: fixed;
+  right:5%;
+  bottom:5%;
+  border-radius:50%;
+}
+#PageTop>a{
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+.DB{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.SrOnly{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0)
+};
+}
